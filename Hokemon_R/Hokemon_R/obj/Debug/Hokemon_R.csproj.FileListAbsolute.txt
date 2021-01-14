@@ -1,0 +1,6 @@
+/Users/will/Desktop/C#/Hokemon_R/Hokemon_R/obj/Debug/Hokemon_R.csprojAssemblyReference.cache
+/Users/will/Desktop/C#/Hokemon_R/Hokemon_R/obj/Debug/Hokemon_R.csproj.CoreCompileInputs.cache
+/Users/will/Desktop/C#/Hokemon_R/Hokemon_R/bin/Debug/Pokemon_R.exe
+/Users/will/Desktop/C#/Hokemon_R/Hokemon_R/bin/Debug/Pokemon_R.pdb
+/Users/will/Desktop/C#/Hokemon_R/Hokemon_R/obj/Debug/Pokemon_R.exe
+/Users/will/Desktop/C#/Hokemon_R/Hokemon_R/obj/Debug/Pokemon_R.pdb
