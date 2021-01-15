@@ -2,7 +2,7 @@
 
 namespace Hokemon_R
 {
-    class MainClass
+    class Program
     {
         public static void Main(string[] args)
         {
@@ -14,7 +14,9 @@ namespace Hokemon_R
 
             HokeObject01.get_details();
 
-            System.Threading.Thread.Sleep(500); // Pauses for half a second
+            System.Threading.Thread.Sleep(555); // Pauses for half a second
+
+            Console.WriteLine("");
 
             // Create a second Hokemon
 
@@ -22,6 +24,20 @@ namespace Hokemon_R
 
             Hoke02.get_details();
 
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            System.Threading.Thread.Sleep(555);
+
+            Battle_Arena firstArena = new Battle_Arena(); //Creating the object 'firstArena' // from the Battle_Arena CLASS
+
+            firstArena.Request_Challenger(HokeObject01);
+
+            System.Threading.Thread.Sleep(400);
+
+            firstArena.Accept_Battle(HokeObject01, Hoke02);
+
+            System.Threading.Thread.Sleep(400);
 
         }
     }
